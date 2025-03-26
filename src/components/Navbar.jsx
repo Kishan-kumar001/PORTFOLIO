@@ -23,6 +23,12 @@ const Navbar = () => {
           <li>Home</li>
         </a>
         <a
+          href="#edu"
+          className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
+        >
+          <li>Education</li>
+        </a>
+        <a
           href="#tech"
           className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
         >
@@ -65,9 +71,9 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-      <div className="bg-gradient-to-r from-blue-500 to-pink-500 px-3 rounded-full opacity-80 text-2xl transition-all duration-300 hover:opacity-100 hover:bg-gradient-to-bl hidden md:flex">
+      {/* <div className="bg-gradient-to-r from-blue-500 to-pink-500 px-3 rounded-full opacity-80 text-2xl transition-all duration-300 hover:opacity-100 hover:bg-gradient-to-bl hidden md:flex">
         <a href="">Download CV</a>
-      </div>
+      </div> */}
       {isOpen ? (
         <BiX className="block md:hidden text-4xl" onClick={menuOpen} />
       ) : (

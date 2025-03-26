@@ -34,23 +34,23 @@ const ScrollReveal = ({ children }) => {
 
 const PublicationCard = ({ publication }) => {
   return (
-    <div className="max-w-2xl mx-auto bg-white shadow-lg rounded-lg p-6 mt-6 border-l-4 border-blue-500">
-      <h3 className="text-xl font-bold text-gray-800">{publication.title}</h3>
-      <p className="text-gray-600">
+    <div className="max-w-3xl mx-auto bg-white/20 backdrop-blur-lg shadow-xl rounded-lg p-6 mt-6 border border-white/30">
+      <h3 className="text-4xl font-bold text-white">{publication.title}</h3>
+      <p className="text-gray-200 text-3xl mt-2">
         Published in{" "}
         <span className="font-semibold">
           {publication.conference}, {publication.year}
         </span>
       </p>
-      <p className="mt-2 text-gray-700">{publication.description}</p>
+      <p className="mt-2 text-gray-300 text-xl">{publication.description}</p>
 
       <div className="mt-3">
-        <h4 className="font-semibold text-gray-800">Technologies Used:</h4>
+        <h4 className="font-semibold text-white text-lg">Technologies Used:</h4>
         <div className="flex flex-wrap gap-2 mt-2">
           {publication.technologies.map((tech, index) => (
             <span
               key={index}
-              className="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-lg"
+              className="bg-white/30 text-white text-sm font-medium px-3 py-1 rounded-lg"
             >
               {tech}
             </span>
@@ -62,7 +62,7 @@ const PublicationCard = ({ publication }) => {
         href={publication.link}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-4 inline-block text-blue-600 font-semibold hover:underline"
+        className="mt-4 inline-block text-blue-300 font-semibold hover:underline text-lg"
       >
         Read Paper →
       </a>
@@ -81,7 +81,7 @@ const Publications = () => {
           Paper Publication
         </h1>
       </ScrollReveal>
-      <div className="flex w-full max-w-[1000px] flex-col gap-16 text-white">
+      <div className="flex w-full max-w-[1000px] flex-col gap-16">
         {publicationData.map((publication, index) => (
           <PublicationCard key={index} publication={publication} />
         ))}

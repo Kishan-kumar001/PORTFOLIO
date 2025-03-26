@@ -5,7 +5,7 @@ import Tech from "./components/Tech";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Publication from "./components/Publication";
-// import Education from "./components/Education";
+import Education from "./components/Education";
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
       <main className="flex flex-col items-center px-4 md:px-8 lg:px-16">
         <Navbar />
         <Hero />
-        {/* <Education /> */}
+        <Education />
         <Tech />
         <Projects />
         <Publication />

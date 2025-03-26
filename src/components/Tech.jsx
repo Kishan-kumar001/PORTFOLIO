@@ -14,7 +14,7 @@ const Tech = () => {
   const variants = {
     hidden: {
       opacity: 0,
-      y: 50,
+      y: 70,
     },
     visible: {
       opacity: 1,
@@ -40,7 +40,7 @@ const Tech = () => {
           variants={variants}
           initial="hidden"
           whileInView="visible"
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.6 }}
         >
           <BiLogoJava className="cursor-pointer text-[80px] text-red-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
         </motion.div>
@@ -48,7 +48,7 @@ const Tech = () => {
           variants={variants}
           initial="hidden"
           whileInView="visible"
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.7 }}
         >
           <BiLogoHtml5 className="cursor-pointer text-[80px] text-red-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
         </motion.div>
@@ -56,7 +56,7 @@ const Tech = () => {
           variants={variants}
           initial="hidden"
           whileInView="visible"
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.8 }}
         >
           <BiLogoCss3 className="cursor-pointer text-[80px] text-yellow-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
         </motion.div>
@@ -64,7 +64,7 @@ const Tech = () => {
           variants={variants}
           initial="hidden"
           whileInView="visible"
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.9 }}
         >
           <BiLogoJavascript className="cursor-pointer text-[80px] text-yellow-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
         </motion.div>
@@ -72,7 +72,7 @@ const Tech = () => {
           variants={variants}
           initial="hidden"
           whileInView="visible"
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 1 }}
         >
           <BiLogoMongodb className="cursor-pointer text-[80px] text-green-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
         </motion.div>
@@ -80,7 +80,7 @@ const Tech = () => {
           variants={variants}
           initial="hidden"
           whileInView="visible"
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 1.1 }}
         >
           <BiLogoReact className="cursor-pointer text-[80px] text-sky-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
         </motion.div>
@@ -88,7 +88,7 @@ const Tech = () => {
           variants={variants}
           initial="hidden"
           whileInView="visible"
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 1.2 }}
         >
           <BiLogoNodejs className="cursor-pointer text-[80px] text-green-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]" />
         </motion.div>
