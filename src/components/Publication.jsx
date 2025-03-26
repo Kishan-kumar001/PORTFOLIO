@@ -35,14 +35,14 @@ const ScrollReveal = ({ children }) => {
 const PublicationCard = ({ publication }) => {
   return (
     <div className="max-w-3xl mx-auto bg-white/10 backdrop-blur-lg shadow-xl rounded-lg p-6 mt-6 border border-white/30">
-      <h3 className="text-4xl font-bold text-white">{publication.title}</h3>
-      <p className="text-gray-200 text-3xl mt-2">
+      <h3 className="text-xl font-semibold text-white">{publication.title}</h3>
+      <p className="text-gray-200 mt-2">
         Published in{" "}
         <span className="font-semibold">
           {publication.conference}, {publication.year}
         </span>
       </p>
-      <p className="mt-2 text-gray-300 text-xl">{publication.description}</p>
+      <p className="mt-2 text-gray-300">{publication.description}</p>
 
       <div className="mt-3">
         <h4 className="font-semibold text-white text-lg">Technologies Used:</h4>

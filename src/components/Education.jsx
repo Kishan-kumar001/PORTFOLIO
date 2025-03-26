@@ -36,20 +36,21 @@ const Time = () => {
       id="edu"
       className="flex min-h-screen w-full flex-col items-center justify-center gap-16 p-4 md:px-14 md:py-24"
     >
-      <h1 className="text-4xl font-light text-white md:text-6xl">About Me</h1>
+      <h1 className="text-4xl font-light text-white md:text-6xl">Education</h1>
       <VerticalTimeline>
         {timelineElements.map((element) => {
           return (
             <VerticalTimelineElement
               key={element.key}
-              date={element.date}
-              dateClassName="date text-white"
               icon={<FaGraduationCap />}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             >
               <h3 className="vertical-timeline-element-title">
                 {element.title}
               </h3>
+              <h5 className="vertical-timeline-element-subtitle">
+                {element.date}
+              </h5>
               <h5 className="vertical-timeline-element-subtitle">
                 {element.location}
               </h5>
