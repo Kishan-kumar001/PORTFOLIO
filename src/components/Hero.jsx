@@ -26,18 +26,19 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="flex max-w-[620px] flex-col items-center justify-center gap-3 text-center"
         >
-          <h1 className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-5xl font-light md:text-7xl">
-            Kishan Kumar B B
-          </h1>
-          <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl md:text-3xl">
+          <h6 className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-5xl font-semibold md:text-4xl">
+            Kishan Kumar B B<br />
             Software Developer
-          </h3>
-          <p className="md:text-base text-pretty text-sm text-gray-400">
+          </h6>
+          {/* <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl md:text-3xl">
+            Software Developer
+          </h3> */}
+          {/* <p className="md:text-base text-pretty text-sm text-gray-400">
             I'm a web developer skilled in React, Tailwind, focused in building
             clean, scalable applications. From front-end design to seamless
             database integration with MongoDB, I create efficient solutions for
             dynamic user experiences. Let's build something amazing together!
-          </p>
+          </p> */}
         </motion.div>
       </div>
     </div>

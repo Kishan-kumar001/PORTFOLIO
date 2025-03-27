@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Publication from "./components/Publication";
 import Education from "./components/Education";
+import About from "./components/About";
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       <main className="flex flex-col items-center px-4 md:px-8 lg:px-16">
         <Navbar />
         <Hero />
-        <Education />
+        <About />
+        {/* <Education /> */}
         <Tech />
         <Projects />
         <Publication />

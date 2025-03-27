@@ -21,11 +21,11 @@
   margin: 1.5em 0 2em 0;
 }
 
-/* @media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1700px) {
   .vertical-timeline-element-date {
     display: block !important;
     float: none !important;
     color: rgb(44, 44, 44);
     margin-top: 1.5em;
   }
-} */
+}

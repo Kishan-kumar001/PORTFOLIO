@@ -23,10 +23,10 @@ const Navbar = () => {
           <li>Home</li>
         </a>
         <a
-          href="#edu"
+          href="#about"
           className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100"
         >
-          <li>Education</li>
+          <li>About</li>
         </a>
         <a
           href="#tech"
@@ -136,9 +136,9 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <div className="bg-gradient-to-r from-blue-500 to-pink-500 px-2 rounded-full opacity-80 text-lg transition-all duration-300 hover:opacity-100 hover:bg-gradient-to-bl">
+          {/* <div className="bg-gradient-to-r from-blue-500 to-pink-500 px-2 rounded-full opacity-80 text-lg transition-all duration-300 hover:opacity-100 hover:bg-gradient-to-bl">
             <a href="">Download CV</a>
-          </div>
+          </div> */}
         </div>
       )}
     </nav>

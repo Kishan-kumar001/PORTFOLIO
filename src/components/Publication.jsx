@@ -81,11 +81,13 @@ const Publications = () => {
           Paper Publication
         </h1>
       </ScrollReveal>
-      <div className="flex w-full max-w-[1000px] flex-col gap-16">
-        {publicationData.map((publication, index) => (
-          <PublicationCard key={index} publication={publication} />
-        ))}
-      </div>
+      <ScrollReveal>
+        <div className="flex w-full max-w-[1000px] flex-col gap-16">
+          {publicationData.map((publication, index) => (
+            <PublicationCard key={index} publication={publication} />
+          ))}
+        </div>
+      </ScrollReveal>
     </div>
   );
 };
