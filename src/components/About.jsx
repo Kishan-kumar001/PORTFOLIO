@@ -83,7 +83,7 @@ const About = () => {
                     title="SSLC"
                     college="Mahatma Montessori Matriculation Higher Secondary School"
                     year="2017-2018"
-                    result="Percentage : 92.4%"
+                    result="Percentage : 92%"
                   />
                 </TimelineContent>
               </TimelineItem>

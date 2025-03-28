@@ -1,6 +1,8 @@
 import React from "react";
 import image from "../assets/image1.png";
 import { motion } from "framer-motion";
+import Lottie from "lottie-react";
+import animationData from "../assets/animation.json";
 
 const Hero = () => {
   return (
@@ -41,6 +43,18 @@ const Hero = () => {
           </p> */}
         </motion.div>
       </div>
+      <Lottie
+        className="absolute bottom-10 right-30 opacity-20"
+        animationData={animationData}
+        loop={true}
+        style={{ width: "300px", height: "300px" }}
+      />
+      <Lottie
+        className="absolute top-20 left-50 opacity-40"
+        animationData={animationData}
+        loop={true}
+        style={{ width: "300px", height: "300px" }}
+      />
     </div>
   );
 };
