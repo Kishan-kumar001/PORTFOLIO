@@ -44,13 +44,13 @@ const Hero = () => {
         </motion.div>
       </div>
       <Lottie
-        className="absolute bottom-10 right-30 opacity-20"
+        className="absolute lg:bottom-10 lg:right-30 opacity-20 bottom-0 right-0 z-[-1]"
         animationData={animationData}
         loop={true}
         style={{ width: "300px", height: "300px" }}
       />
       <Lottie
-        className="absolute top-20 left-50 opacity-40"
+        className="absolute lg:top-20 lg:left-50 opacity-40 top-0 left-0 z-[-1]"
         animationData={animationData}
         loop={true}
         style={{ width: "300px", height: "300px" }}
