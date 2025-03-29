@@ -32,25 +32,28 @@ const Hero = () => {
             Kishan Kumar B B<br />
             Software Developer
           </h6>
-          {/* <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl md:text-3xl">
-            Software Developer
-          </h3> */}
-          {/* <p className="md:text-base text-pretty text-sm text-gray-400">
-            I'm a web developer skilled in React, Tailwind, focused in building
-            clean, scalable applications. From front-end design to seamless
-            database integration with MongoDB, I create efficient solutions for
-            dynamic user experiences. Let's build something amazing together!
-          </p> */}
         </motion.div>
       </div>
       <Lottie
-        className="absolute lg:bottom-10 lg:right-30 opacity-20 bottom-0 right-0 z-[-1]"
+        className="fixed lg:bottom-10 lg:right-30 opacity-20 bottom-0 right-0 z-[-1]"
         animationData={animationData}
         loop={true}
         style={{ width: "300px", height: "300px" }}
       />
       <Lottie
-        className="absolute lg:top-20 lg:left-50 opacity-40 top-0 left-0 z-[-1]"
+        className="fixed lg:top-20 lg:left-50 opacity-40 top-0 left-0 z-[-1]"
+        animationData={animationData}
+        loop={true}
+        style={{ width: "300px", height: "300px" }}
+      />
+      <Lottie
+        className="fixed lg:top-45 lg:left-30 opacity-40 top-0 left-0 z-[-1]"
+        animationData={animationData}
+        loop={true}
+        style={{ width: "300px", height: "300px" }}
+      />
+      <Lottie
+        className="fixed lg:bottom-45 lg:right-20 opacity-40 bottom-0 right-0 z-[-1]"
         animationData={animationData}
         loop={true}
         style={{ width: "300px", height: "300px" }}
